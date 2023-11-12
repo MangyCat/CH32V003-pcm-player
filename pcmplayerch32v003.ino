@@ -2,7 +2,7 @@ const int sampleRate = 16000;
 const int bufferSize = 256; //Its in bytes
 unsigned char audioBuffer[bufferSize];
 const unsigned char audioData[] PROGMEM = {};
-const int outputPin = D5; // Use any PWM-capable digital pin
+const int outputPin = D6; // Use any PWM-capable digital pin
 
 void setup() {
   pinMode(outputPin, OUTPUT); // Set the output pin
