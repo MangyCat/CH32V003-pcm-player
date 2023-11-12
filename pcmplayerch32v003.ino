@@ -18,7 +18,7 @@ void loop() {
       // Simulate LOW output
       digitalWrite(outputPin, LOW);
     }
-    delayMicroseconds(62); // Adjust delay for sample rate 62=16000 sample rate, 125=8000 sample rate, vice versa
+    delayMicroseconds(62.5); // Adjust delay for sample rate 62.5=16000 sample rate, 125=8000 sample rate, vice versa
   }
-  delay(2000);
+  delay(500);
 }
